@@ -1,0 +1,57 @@
+/* Footer.css */
+
+
+.myc {
+    height: 150px;
+    margin:0px 300px 0px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    background-color: #f1f1f1; /* Light gray background for subtle styling */
+    color: #333; /* Text color for better readability */
+    text-align: center; /* Center align the content */
+    padding: 15px; /* Add some padding */
+    font-size: 14px; /* Set a slightly smaller font size */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow effect for depth */
+}
+
+.myc h4 {
+    font-size: 15px;
+    margin-top: 20px; /* Remove default margin for the paragraph */
+}
+
+h4 {
+    
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3), 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #ffffff, #bfbebe);
+    margin: 20px 400px 30px;
+}
+
+/* Advanced Footer CSS Code */
+
+/* Footer container */
+.foot {
+    background-color: aqua;
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 200px; /*Full viewport height*/
+    /* background-color: #333; Dark background color */
+    color: #fff; /* White text */
+    text-align: center; /* Center the content */
+    padding: 10px 0; /* Add spacing inside the footer */
+    position: relative; /* Optional: can be fixed or relative depending on your layout */
+    bottom: 0;
+    width: 100%;
+    margin: 10px 0px 30px;
+}
+
+/* Footer text */
+.myc h4 {
+    margin: 0; /* Remove default margin */
+    font-size: 1rem; /* Set font size */
+    font-weight: normal; /* Use normal font weight */
+}
+
+/* Simple Footer CSS Code */

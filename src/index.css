@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Align cards horizontally */
+  gap: 20px; /* Space between cards */
+}
+
+.card {
+  align-items: center;
+  border: 2px solid #256702;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #3f3f3f;
+  padding: 20px;
+  margin: 24px 20px 18px;
+  text-align: center;
+  width: 195px;
+  height: 265px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 8px 8px 12px rgb(2, 87, 77);
+  transition: 1.3s;
+}
+.card .card-image {
+  width: 72%;
+  max-height: 64%;
+  border-radius: 15%;
+  margin-bottom: 5px;
+  border: 2px solid rgb(237, 29, 29);
+}
+
+.card .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  margin: 18px;
+  color: rgb(12, 120, 120);
+}
+
+.card .card-text {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: rgb(55, 58, 58);
+}
+
+.test {
+  text-align: center;
+  background-color: rgb(186, 27, 249);
+  border: 2px solid rgb(4, 71, 69);
+}
+.test:hover{
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 1.3s;
+  color: white;
+  background-color: rgb(6, 90, 87);
+}
+
+.marq {
+  font-size: 20px;
+  background-color: #2c8ff2;
+  color: white;
+  margin: 10px 280px 15px;
+}
+
+.marq:hover {
+  background-color: #4f504f;
+  transition: 1.2s;
+}
+
+/* Advanced CSS Code */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header container */
+.header {
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Welcome message */
+.header .test {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* Marquee */
+.marq {
+  font-size: 1.2rem;
+  color: #f4d03f;
+  font-weight: bold;
+  animation: color-change 3s infinite;
+}
+
+/* Marquee animation */
+@keyframes color-change {
+  0%, 100% { color: #000000; }
+  50% { color: #ffffff; }
+}
+
+/* Navigation container */
+.head2 {
+  background-color: #2c3e50;
+  padding: 15px 10px;
+  margin-top: 20px;
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation list */
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Navigation items */
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Navigation hover effects */
+.nav a:hover {
+  color: #f1c40f;
+  transform: scale(1.1);
+}
+
+/* Footer container (if enabled) */
+.myc {
+  margin-top: 20px;
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* End Advanced CSS Code */
+
